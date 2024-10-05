@@ -1,0 +1,89 @@
+/* 自訂海洋風格 Banner 樣式 (更淡) */
+.main-banner, .section-banner {
+    background-color: #A0D8EF; /* 淺藍色 */
+    padding: 100px 0;
+    text-align: center;
+    color: #003366; /* 深藍色文字 */
+}
+
+.section-banner {
+    background-color: #B3E5FC; /* 淡青色 */
+}
+
+.content-frame {
+    background-color: #E1F5FE; /* 非常淺的淡藍色 */
+    margin: 0 auto; /* 居中對齊 */
+    padding: 20px;
+    border-radius: 15px; /* 圓角 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 陰影效果 */
+    max-width: calc(100% - 40px); /* 比區段 Banner 窄20px（左右各10px） */
+}
+
+.main-banner {
+    margin-bottom: 20px; /* 與導航列的間距 */
+}
+
+.navbar {
+    background-color: #B8E0F2; /* 淡藍色背景 */
+}
+
+.navbar-brand {
+    margin-right: auto; /* 將品牌置於左側 */
+    margin-left: 5px; /* 與左邊視窗邊界保持5px距離 */
+    color: #003366; /* 深藍色文字 */
+}
+
+.navbar-nav .nav-link {
+    color: #003366; /* 深藍色文字 */
+    font-weight: bold; /* 加粗以增加可見性 */
+    margin-left: 15px; /* 與前一個連結保持間距 */
+    transition: background-color 0.3s, color 0.3s; /* 平滑過渡效果 */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff; /* 白色文字 */
+    background-color: #005f99; /* 中等藍色背景 */
+    border-radius: 5px; /* 圓角 */
+    padding: 5px 10px; /* 內邊距 */
+}
+
+/* 頁面內連結滾動效果 */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 調整內容區塊的上邊距，避免被固定導航列覆蓋 */
+.section {
+    padding-top: 70px; /* Navbar 高度約 56px，加上一些間距 */
+}
+
+/* 調整頁腳間距 */
+footer {
+    padding-top: 50px;
+    background-color: #B8E0F2; /* 淡藍色背景 */
+    color: #003366; /* 深藍色文字 */
+}
+
+/* 自訂主 Banner 樣式以符合海洋風格 */
+.main-banner h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.main-banner p.lead {
+    font-size: 1.5em;
+}
+
+/* 自訂區段 Banner 樣式 */
+.section-banner h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.section-banner p {
+    font-size: 1.2em;
+}
+
+/* 自訂內容框架樣式 */
+.content-frame p {font-size: 1.1em;
+    color: #003366; /* 深*/}
